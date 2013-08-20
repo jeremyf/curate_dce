@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/ndlib/curate.git
-  revision: 260cb3aed891179fbd9406d0012b7180ac55d458
-  ref: 260cb3a
+  revision: 76b0c6b3386267ea016a7639f5f482d703119fe1
+  ref: 76b0c6b
   specs:
     curate (0.4.1)
       active_attr
