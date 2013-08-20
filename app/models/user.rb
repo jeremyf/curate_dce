@@ -1,4 +1,8 @@
 class User < ActiveRecord::Base
+
+  include Curate::User
+# Connects this user object to Sufia behaviors. 
+ include Sufia::User
 # Connects this user object to Hydra behaviors. 
  include Hydra::User
 

@@ -1,8 +1,10 @@
 CurateDce::Application.routes.draw do
-  root :to => "catalog#index"
+  root 'welcome#index'
   Blacklight.add_routes(self)
   HydraHead.add_routes(self)
   devise_for :users
+  curate_for :containers=>[:senior_theses]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
