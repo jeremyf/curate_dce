@@ -46,3 +46,7 @@ gem 'unicorn'
 gem "devise"
 gem "devise-guests", "~> 0.3"
 gem "bootstrap-sass"
+group :development, :test do
+  gem "rspec-rails"
+  gem "jettywrapper"
+end
