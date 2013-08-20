@@ -35,7 +35,7 @@ gem 'curate', github: 'ndlib/curate', ref: '8d4228bcb2ca9eb82fc7200d6a52385c40c2
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
