@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/ndlib/curate.git
-  revision: 8d4228bcb2ca9eb82fc7200d6a52385c40c2daf0
-  ref: 8d4228bcb2ca9eb82fc7200d6a52385c40c2daf0
+  revision: 260cb3aed891179fbd9406d0012b7180ac55d458
+  ref: 260cb3a
   specs:
     curate (0.4.1)
       active_attr
@@ -22,7 +22,7 @@ GIT
       rails (~> 4.0.0)
       simple_form (= 3.0.0.rc)
       solrizer (~> 3.0)
-      sufia-models
+      sufia-models (~> 3.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -331,7 +331,7 @@ GEM
     sqlite3 (1.3.8)
     stomp (1.2.14)
     subexec (0.2.3)
-    sufia-models (3.1.0)
+    sufia-models (3.1.1)
       active-fedora (~> 6.4.0)
       activeresource
       acts_as_follower (= 0.1.1)
