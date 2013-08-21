@@ -29,7 +29,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'curate', github: 'ndlib/curate', ref: 'f7d0000'
+gem 'curate', github: 'ndlib/curate', ref: '8134f8d'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
