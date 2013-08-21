@@ -1,12 +1,11 @@
 GIT
   remote: git://github.com/ndlib/curate.git
-  revision: 49562e2b793af2e6988732467ebda975deea07bb
-  ref: 49562e2
+  revision: f7d00006d534be3bccc31218fce8e60b57e183ef
+  ref: f7d0000
   specs:
     curate (0.4.1)
       active_attr
       blacklight (~> 4.0)
-      blacklight_advanced_search
       bootstrap-datepicker-rails
       breach-mitigation-rails
       breadcrumbs_on_rails
@@ -82,10 +81,6 @@ GEM
       rails (>= 3.2.6, < 5)
       rsolr (~> 1.0.6)
       sass-rails
-    blacklight_advanced_search (2.1.1)
-      blacklight (~> 4.0)
-      parslet
-    blankslate (2.1.2.4)
     block_helpers (0.3.3)
       activesupport (>= 2.0)
     bootstrap-datepicker-rails (1.1.1.7)
@@ -225,8 +220,6 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
-    parslet (1.5.0)
-      blankslate (~> 2.0)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-protection (1.5.0)
