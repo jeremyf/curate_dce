@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore production config files for db, fedora, redis, and solr
+/config/database.yml
+/config/fedora.yml
+/config/redis.yml
+/config/solr.yml
